@@ -5,7 +5,7 @@
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-DBR2PMLR61");</script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Chinese Antonyms Game Demo — 反义词连连看 | Free 2-Round Preview</title>
+<title>Chinese Antonyms Game Demo — 反义词连连看 | Free Matching Game Preview</title>
 <meta name="description" content="Learn Chinese opposite words through a matching game. 380 antonym pairs across 3 difficulty levels. Click to match opposites — pinyin and English hints included. Free, no login.">
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
@@ -144,13 +144,29 @@ a:hover{text-decoration:underline}
 .btn-again:hover{filter:brightness(1.1)}
 .foot{margin-top:28px;font-size:.8rem;color:var(--faint)}
 .foot a{color:var(--muted)}
+
+/* ── SEO CONTENT ── */
+.seo-wrap{max-width:760px;margin:0 auto;padding:60px 20px 80px}
+.seo-intro{margin-bottom:48px}
+.seo-intro h2{font-size:clamp(1.4rem,4vw,2rem);font-weight:800;letter-spacing:-.03em;margin-bottom:14px}
+.seo-intro p{color:var(--muted);line-height:1.85;margin-bottom:12px}
+.seo-intro a{color:var(--accent-l)}
+.faq-list{display:flex;flex-direction:column;gap:14px;margin-bottom:48px}
+.faq-item{background:var(--surf);border:1px solid rgba(255,255,255,.06);border-radius:14px;padding:20px 22px}
+.faq-q{font-weight:700;font-size:.97rem;margin-bottom:8px;color:var(--white)}
+.faq-a{color:var(--muted);font-size:.9rem;line-height:1.75}
+.faq-a a{color:var(--accent-l)}
+.seo-h3{font-size:1.1rem;font-weight:700;margin-bottom:16px;color:var(--white);letter-spacing:-.02em}
+.pair-chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:14px}
+.chip{background:var(--surf2);border:1px solid rgba(255,255,255,.07);border-radius:8px;padding:6px 12px;font-size:.82rem;color:var(--muted)}
+.chip strong{color:var(--white)}
 </style>
 <link rel="canonical" href="https://ordinarymantrying.com/tools/chinese-antonyms.html">
 </head>
 <body>
 
 <!-- ── HERO ── -->
-<div style="background:var(--accent-dim);border-bottom:1px solid rgba(99,102,241,.25);text-align:center;padding:10px 16px;font-size:.82rem;color:var(--accent-l)">📌 This is a <strong>2-round demo</strong>. <a href="https://ordinarymantrying.com/tools/chinese-antonyms.html" style="color:#fff;font-weight:700">Play the full 380-pair version →</a></div>
+<div style="background:var(--accent-dim);border-bottom:1px solid rgba(99,102,241,.3);text-align:center;padding:10px 16px;font-size:.83rem;color:var(--accent-l)">📌 Demo (2 rounds) — <a href="https://ordinarymantrying.com/tools/chinese-antonyms.html" style="color:#fff;font-weight:700">Play full version: 380 pairs →</a></div>
 <section id="hero">
   <div class="hero">
     <div class="hero-tag">Demo · 2 Rounds · Free</div>
@@ -182,7 +198,7 @@ a:hover{text-decoration:underline}
         </button>
       </div>
       <button class="btn-start" onclick="startGame()">▶ Start Matching</button>
-      <div class="hero-meta">4 pairs per round · 2 rounds · full version has 380 pairs</div>
+      <div class="hero-meta">4 pairs per round · 2 rounds · <a href="https://ordinarymantrying.com/tools/chinese-antonyms.html" style="color:var(--accent-l)">full version: 380 pairs</a></div>
     </div>
   </div>
 </section>
@@ -225,11 +241,11 @@ a:hover{text-decoration:underline}
     <button class="modal-close" onclick="closeDonate()">✕</button>
     <div class="modal-icon">🎯</div>
     <h3>Demo complete!</h3>
-    <p>You've finished the 2-round demo. The full version has <strong>380 antonym pairs</strong> across 30+ rounds — completely free, no login.</p>
+    <p>You've finished the 2-round demo. The full version has <strong>380 antonym pairs</strong> across 30+ rounds — completely free.</p>
     <a class="btn-coffee" href="https://ordinarymantrying.com/tools/chinese-antonyms.html" target="_blank" onclick="donateShown=true;closeDonate()">
-      🚀 Play full version (380 pairs)
+      🚀 Play full version (380 pairs) →
     </a>
-    <button class="btn-no" onclick="closeDonate()">Replay demo</button>
+    <button class="btn-no" onclick="donateShown=true;closeDonate()">Replay demo</button>
   </div>
 </div>
 
@@ -254,6 +270,129 @@ a:hover{text-decoration:underline}
 </div>
 
 <div class="combo-toast" id="ctost"></div>
+
+<!-- ── SEO CONTENT (always visible to Google) ── -->
+<div class="seo-wrap" id="seo-content">
+
+  <div class="seo-intro">
+    <h2>Learn Chinese Antonyms Through Play</h2>
+    <p>This free matching game teaches you <strong>Chinese opposite words (反义词, fǎnyìcí)</strong> through an interactive click-to-match format. Every tile shows the Chinese character, its pinyin romanization, and an English translation — making it ideal for beginners and intermediate learners alike.</p>
+    <p>The game covers <strong>380 antonym pairs</strong> across three difficulty levels: single characters (Easy), two-character compound words (Medium), and advanced compounds (Hard). Each round presents 4 random pairs as 8 tiles. Match all pairs to advance, earn combo multipliers for consecutive correct matches, and use the hint button when stuck.</p>
+    <p>This is a 2-round demo. <strong><a href="https://ordinarymantrying.com/tools/chinese-antonyms.html">Play the full 380-pair version</a></strong> — free, no login. Also try: <a href="https://ordinarymantrying.com/tools/mandarin-flashcards.html">Mandarin Flashcards (HSK 1–3)</a> — 400 words with Anki export.</p>
+  </div>
+
+  <div class="faq-section">
+    <h2 style="font-size:clamp(1.4rem,4vw,2rem);font-weight:800;letter-spacing:-.03em;margin-bottom:20px">Frequently Asked Questions</h2>
+    <div class="faq-list">
+
+      <div class="faq-item">
+        <div class="faq-q">What is a Chinese antonym (反义词)?</div>
+        <div class="faq-a">A <strong>反义词 (fǎnyìcí)</strong> is a word that means the opposite of another word. For example, 大 (dà, big) and 小 (xiǎo, small), or 冷 (lěng, cold) and 热 (rè, hot). Learning antonym pairs is one of the most effective ways to double your vocabulary — every new word teaches you two concepts at once.</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-q">How do I play the Chinese antonyms matching game?</div>
+        <div class="faq-a">Click any tile to select it (it turns purple), then click its opposite to make a match. A correct match turns both tiles green and awards points — consecutive correct matches earn a combo multiplier (up to ×8). A wrong match shakes the tiles red and resets your combo. Use the 💡 Hint button (−20 pts) to highlight a matching pair, or Skip to move to the next round.</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-q">What Chinese antonym pairs does the game include?</div>
+        <div class="faq-a">The game includes 380 carefully curated pairs sourced from a Chinese antonym dictionary. The Easy level focuses on common single characters like 黑/白 (black/white), 大/小 (big/small), 冷/热 (cold/hot). The Medium and Hard levels introduce compound words like 安全/危险 (safe/dangerous), 勤劳/懒惰 (hardworking/lazy), and 坚定/动摇 (resolute/waver).</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-q">Is this game good for HSK preparation?</div>
+        <div class="faq-a">Yes. The Easy level covers vocabulary from HSK 1–2, Medium covers HSK 3–4, and Hard covers HSK 4–6. Studying antonyms is especially effective for the HSK reading and vocabulary sections, where questions often test your ability to distinguish between similar or opposite words. Pair this game with our <a href="mandarin-flashcards.html">Mandarin Flashcards tool</a> for comprehensive HSK prep.</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-q">Does the game show pinyin?</div>
+        <div class="faq-a">Yes — every tile displays the Chinese character, its <strong>pinyin</strong> (phonetic romanization with tone marks), and an English translation. You can toggle English hints on or off during the game using the checkbox in the top bar. Pinyin is always visible to help with pronunciation.</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-q">Is this game free? Does it require an account?</div>
+        <div class="faq-a">Completely free, no account, no login, no ads. The game runs entirely in your browser — no data is sent to any server. Works on desktop and mobile.</div>
+      </div>
+
+    </div>
+  </div>
+
+  <div>
+    <h3 class="seo-h3">Sample Antonym Pairs</h3>
+    <div class="pair-chips">
+      <div class="chip"><strong>黑/白</strong> hēi/bái · black/white</div>
+      <div class="chip"><strong>大/小</strong> dà/xiǎo · big/small</div>
+      <div class="chip"><strong>冷/热</strong> lěng/rè · cold/hot</div>
+      <div class="chip"><strong>快/慢</strong> kuài/màn · fast/slow</div>
+      <div class="chip"><strong>爱/恨</strong> ài/hèn · love/hate</div>
+      <div class="chip"><strong>安全/危险</strong> ānquán/wēixiǎn · safe/dangerous</div>
+      <div class="chip"><strong>成功/失败</strong> chénggōng/shībài · succeed/fail</div>
+      <div class="chip"><strong>勤劳/懒惰</strong> qínláo/lǎnduò · hardworking/lazy</div>
+      <div class="chip"><strong>善良/凶恶</strong> shànliáng/xiōngè · kind/fierce</div>
+      <div class="chip"><strong>坚定/动摇</strong> jiāndìng/dòngyáo · resolute/waver</div>
+    </div>
+  </div>
+
+</div>
+
+<!-- FAQ Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a Chinese antonym (反义词)?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A 反义词 (fǎnyìcí) is a word that means the opposite of another word. For example, 大 (big) and 小 (small), or 冷 (cold) and 热 (hot). Learning antonym pairs doubles vocabulary efficiency — every new word teaches two concepts at once."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I play the Chinese antonyms matching game?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Click any tile to select it, then click its opposite to match. Correct matches turn green and award points. Consecutive correct matches earn a combo multiplier up to ×8. Use the Hint button (−20 pts) to highlight a pair, or Skip to advance to the next round."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What Chinese antonym pairs does the game include?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The game includes 380 curated pairs: 133 single-character pairs (Easy), 123 two-character compound pairs (Medium), and 124 advanced compound pairs (Hard), all with pinyin and English translations."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is this game good for HSK preparation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Easy covers HSK 1–2 vocabulary, Medium covers HSK 3–4, and Hard covers HSK 4–6. Studying antonyms is effective for HSK reading and vocabulary sections."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does the game show pinyin?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes — every tile shows the Chinese character, pinyin with tone marks, and an English translation. English hints can be toggled on or off during play."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is this game free and does it require an account?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Completely free, no account, no login, no ads. Runs entirely in your browser with no server communication. Works on desktop and mobile."
+      }
+    }
+  ]
+}
+</script>
 
 <script>
 const DATA={
@@ -403,7 +542,7 @@ function clickTile(id){
       be.classList.remove('ok'); be.classList.add('gone');
       sel=null;
       if(tiles.every(t=>t.gone)){
-        if(roundIdx>=1 && !donateShown){ donateShown=true; setTimeout(showDonate,400); }
+        if(roundIdx>=1 && !donateShown){ donateShown=true; setTimeout(showDonate,600); }
         else setTimeout(nextRound,300);
       }
     },500);
@@ -447,7 +586,7 @@ function skipRound(){ sel=null; roundIdx++; if(roundIdx*ROUND_SIZE>=shuffled.len
 
 /* ═══ DONATE ═══ */
 function showDonate(){ document.getElementById('donate-modal').classList.add('show'); }
-function closeDonate(){ document.getElementById('donate-modal').classList.remove('show'); if(!donateShown) setTimeout(nextRound,200); else setTimeout(restartSame,200); }
+function closeDonate(){ document.getElementById('donate-modal').classList.remove('show'); setTimeout(restartSame,200); }
 
 /* ═══ RESULTS ═══ */
 function endGame(){
